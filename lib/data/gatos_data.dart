@@ -2,7 +2,7 @@ import '../models/gato.dart';
 
 // Mock data. Para usar tus propias fotos, cambia 'imagen' por
 // 'assets/images/mi_gato.jpg' y declara la carpeta en pubspec.yaml.
-const List<String> categorias = ['Todos', 'Transtortados', 'Juguetones', 'Tranquilos'];
+const List<String> categorias = ['Todos', 'Transtornados', 'Juguetones', 'Tranquilos','Cachorros'];
 
 const List<Gato> gatos = [
   Gato(
@@ -32,7 +32,7 @@ const List<Gato> gatos = [
     descripcion: 'Su compañia es algo diferente a las demas',
     historia:
         'Marci es proveniente de una raza superior,'
-        'fue encontrado en el patio trasero de la cafeteria, brillaba tanto en esa noche oscura que'
+        'fue encontrado en el patio trasero de la cafeteria, brillaba tanto en esa noche oscura que '
         'era dificil de ignorar',
     personalidad: 'Enérgica, curiosa, sociable',
     imagen: 'assets/images/marci.png',
@@ -48,8 +48,8 @@ const List<Gato> gatos = [
     descripcion: 'Es una bolita de pelo muy linda, y ansiosa...',
     historia:
         'Este pequeño fue encontrado abandonado abajo de un puente'
-        'fue rescatado y ahora vive bien aunque aveces recuerda su pasado fluctuoso'
-        'le encanta estar acompañado, es muy cariñoso y gran compañia',
+        ' fue rescatado y ahora vive bien aunque aveces recuerda su pasado turbulento'
+        ' le encanta estar acompañado, es muy cariñoso y gran compañia',
     personalidad: 'cariñoso, tierno, ansioso',
     imagen: 'assets/images/noFelix.jpg',
   ),
@@ -89,7 +89,7 @@ const List<Gato> gatos = [
     id: 6,
     nombre: 'Nube',
     raza: 'Persa',
-    categoria: 'Cachorros',
+    categoria: 'Transtornados',
     edadMeses: 6,
     rating: 4.9,
     precioVisita: 100,

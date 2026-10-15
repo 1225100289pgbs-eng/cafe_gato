@@ -25,10 +25,12 @@ class _DetailScreenState extends State<DetailScreen> {
     showDialog(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('¡Visita reservada! 🐱'),
+       title: const Text('¡Mesa reservada! ☕'),
         content: Text(
-            'Reservaste una hora con ${widget.gato.nombre} por \$${widget.gato.precioVisita.toStringAsFixed(0)} MXN. '
-            'Incluye una bebida caliente.'),
+            'Reservaste una mesa en la zona de ${widget.gato.nombre} por '
+            '\$${widget.gato.precioVisita.toStringAsFixed(0)} MXN la hora, '
+            'bebida incluida. ${widget.gato.nombre} es residente del café, '
+            'así que anda por ahí, pero él decide si se acerca '),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
